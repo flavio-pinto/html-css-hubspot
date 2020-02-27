@@ -52,6 +52,7 @@ body {
 
 .btn-large {
   padding: 20px;
+  font-size: 20px;
 }
 
 #spacer-btn li:nth-child(2) {
@@ -68,23 +69,42 @@ body {
   height: 1000px;
 }
 
-.header-login-container {
-  background: #f5f8fa;
+.header-container {
   height: 90px;
 }
 
-.header-nav {
+.header-login-container {
+  background: #f5f8fa;
+}
+
+.header-nav,
+.header-menu {
   height: 90px;
   line-height: 90px;
 }
 
+.header-logo {
+  width: 30%;
+}
+
+.header-logo img {
+  margin-top: 30px;
+}
+
 .header-nav .header-nav-left,
-.header-nav .header-nav-right {
+.header-nav .header-nav-right,
+.header-menu .header-logo,
+.header-menu .header-menu-right {
   float: left;
 }
 
-.header-nav .header-nav-right {
+.header-nav .header-nav-right,
+.header-menu .header-menu-right {
   text-align: right;
+}
+
+.header-menu .header-menu-right {
+  width: 70%;
 }
 
 .menu-inline {
@@ -96,7 +116,26 @@ body {
   line-height: 30px;
 }
 
-.header-nav a {
+.header-menu-right .menu-inline li {
+  padding-right: 20px;
+}
+
+.header-menu-right .menu-inline li:nth-last-child(1) {
+  padding-right: 0;
+}
+
+.header-menu-right .menu-inline li a {
+  font-size: 20px;
+  color: inherit;
+}
+
+.header-menu-right .menu-inline li a span {
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.header-nav,
+.header-menu a {
   text-decoration: none;
 }
 
@@ -111,4 +150,51 @@ body {
 
 #contact-sales {
   color: inherit;
+  text-decoration: none;
+}
+
+.header-container-big {
+  height: 820px;
+}
+
+.header-jumbotron-container {
+  height: 100%;
+  background-image: url('../img/jumbotron.png');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: 100% 100%;
+}
+
+.jumbotron-wrapper {
+  position: relative;
+}
+
+.jumbotron-wrapper .jumbotron {
+  position: absolute;
+  left: 0;
+  top: 120px;
+}
+
+.jumbotron {
+  width: 400px;
+}
+
+.jumbotron h1 {
+  font-size: 46px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.jumbotron p {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.jumbotron a {
+  margin-bottom: 20px;
+}
+
+.jumbotron #freetools {
+  font-size: 10px;
+  width: 208px;
 }
