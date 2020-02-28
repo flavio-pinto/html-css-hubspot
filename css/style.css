@@ -421,8 +421,8 @@ body {
 }
 
 .partnerships-area-top {
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 80px;
 }
 
 .partnerships-area-top-left,
@@ -492,4 +492,97 @@ body {
 .photo-hubspotter {
   text-align: right;
   vertical-align: middle;
+}
+
+/* Footer Area */
+#big-footer {
+  height: 650px;
+  background: #33475b;
+}
+
+.useful-links-area {
+  padding-top: 80px;
+}
+
+.useful-links-box {
+  width: 25%;
+  float: left;
+}
+
+.useful-links-heading {
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  padding-bottom: 10px;
+}
+
+.useful-links li {
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+.useful-links li a {
+  text-decoration: none;
+  color: #cad5e1;
+}
+
+.contact-support-and-social {
+  margin-bottom: 50px;
+}
+
+.contact-support-and-social-wrapper {
+  width: 25%;
+  float: right;
+}
+
+#footer-button-fix {
+  background: white;
+  color: inherit;
+  border: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.social-links li a {
+  color: #cad5e1
+}
+
+.languages-selector-footer {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #cad5e1;
+  margin-bottom: 30px;
+}
+
+.language-choices li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.language-choices li a {
+  color: #cad5e1;
+  text-decoration: none;
+}
+
+.footer-left-wrapper,
+.footer-right-wrapper {
+  float: left;
+}
+
+.bottom-footer {
+  color: #cad5e1;
+}
+
+.footer-right-wrapper {
+  text-align: right;
+}
+
+.footer-right-wrapper a {
+  text-decoration: none;
+  margin-left: 40px;
+  color: #cad5e1;
+  font-size: 22px;
 }
