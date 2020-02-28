@@ -153,6 +153,7 @@ body {
   text-decoration: none;
 }
 
+/* Jumbotron */
 .header-container-big {
   height: 820px;
 }
@@ -161,8 +162,8 @@ body {
   height: 100%;
   background-image: url('../img/jumbotron.png');
   background-repeat: no-repeat;
-  background-size: auto 100%;
-  background-position: 100% 100%;
+  background-size: auto 110%;
+  background-position: 90% -30%;
 }
 
 .jumbotron-wrapper {
@@ -197,4 +198,31 @@ body {
 .jumbotron #freetools {
   font-size: 10px;
   width: 208px;
+}
+
+.greenbar {
+  background: #afebe4;
+  border-top: 2px solid #33475b;
+  border-bottom: 2px solid #33475b;
+}
+
+/* Prodotti */
+.products-area {
+  height: 1700px;
+  background: #f4f9fd;
+}
+
+.slogan {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.slogan h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.slogan p {
+  font-size: 20px;
 }
