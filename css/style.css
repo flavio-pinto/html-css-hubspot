@@ -64,13 +64,9 @@ body {
   color: #00a4bd;
 }
 
-.fa-check-circle {
-  color: #ff7a59;
-  font-size: 20px;
-  vertical-align: middle;
-  padding-right: 10px;
+.shadow-utility {
+  box-shadow: 3px 3px lightgray;
 }
-
 /* Header */
 #main-header {
   height: 1000px;
@@ -215,10 +211,11 @@ body {
 
 /* Prodotti */
 .products-area {
-  height: 1700px;
+  height: 1600px;
   background: #f4f9fd;
 }
 
+/* Slogan */
 .slogan {
   text-align: center;
   padding-top: 100px;
@@ -234,10 +231,12 @@ body {
   font-size: 20px;
 }
 
+/* Free CRM */
 .free-hubspot-crm {
   background: white;
   padding-top: 40px;
   padding-bottom: 40px;
+  margin-bottom: 35px;
 }
 
 .free-hubspot-crm-sx,
@@ -279,6 +278,7 @@ body {
 .free-hubspot-crm-dx h4 {
   position: relative;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .free-hubspot-crm-dx h4::after {
@@ -294,4 +294,61 @@ body {
 .free-hubspot-crm-dx span {
   padding-right: 20px;
   font-size: 14px;
+}
+
+.free-hubspot-crm-dx span i{
+  color: #ff7a59;
+  font-size: 20px;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+/* Features */
+.feature-box {
+  float: left;
+  width: 31%;
+  text-align: center;
+  background: white;
+}
+
+.feature-box-wrapper {
+  padding: 30px;
+}
+
+.feature-box-wrapper img {
+  margin-bottom: 20px;
+}
+
+.feature-box-wrapper p {
+  padding-bottom: 60px;
+  border-bottom: 1px solid;
+}
+
+.feature-box-wrapper h4 {
+  padding-top: 30px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.feature-box-wrapper span {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.feature-box-wrapper span i {
+  color: #ff7a59;
+  font-size: 20px;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+.feature-box-wrapper a {
+  margin-top: 20px;
+}
+
+.features .feature-box:nth-child(2) {
+  margin-left: 3.5%;
+  margin-right: 3.5%;
 }
