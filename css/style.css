@@ -273,6 +273,7 @@ body {
 .free-hubspot-crm-dx p {
   width: 75%;
   margin-bottom: 20px;
+  line-height: 24px;
 }
 
 .free-hubspot-crm-dx h4 {
@@ -322,6 +323,7 @@ body {
 .feature-box-wrapper p {
   padding-bottom: 60px;
   border-bottom: 1px solid;
+  line-height: 24px;
 }
 
 .feature-box-wrapper h4 {
@@ -352,3 +354,65 @@ body {
   margin-left: 3.5%;
   margin-right: 3.5%;
 }
+
+/* Stats area */
+.stats-area {
+  height: 800px;
+  background: #00b5ae;
+  color: white;
+  text-align: center;
+}
+
+.stats-area-top {
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+
+.stats-area-top h2 {
+  font-size: 32px;
+  padding-bottom: 30px;
+}
+
+.stats-area-top p {
+  line-height: 24px;
+}
+
+.stats-row-1 .stats-box {
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.stats-row-1 .stats-box:nth-last-child(1) {
+  border-right: 0;
+}
+
+.stats-row-2 .stats-box {
+  border-right: 1px solid white;
+}
+
+.stats-row-2 .stats-box:nth-last-child(1) {
+  border-right: 0;
+}
+
+.stats-box {
+  float: left;
+  width: calc(100% / 4);
+  padding: 40px;
+}
+
+.stats-box h2 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.stats-box h2 span {
+  font-size: 16px;
+  line-height: 16px;
+  vertical-align: middle;
+}
+
+.stats-box h3 {
+  font-weight: lighter;
+}
+
+/* Partnerships Area */
