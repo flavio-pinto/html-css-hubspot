@@ -64,6 +64,13 @@ body {
   color: #00a4bd;
 }
 
+.fa-check-circle {
+  color: #ff7a59;
+  font-size: 20px;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
 /* Header */
 #main-header {
   height: 1000px;
@@ -225,4 +232,66 @@ body {
 
 .slogan p {
   font-size: 20px;
+}
+
+.free-hubspot-crm {
+  background: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.free-hubspot-crm-sx,
+.free-hubspot-crm-dx {
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.free-hubspot-crm-sx {
+  width: 30%;
+  text-align: center;
+}
+
+.free-hubspot-crm-sx img {
+  margin-bottom: 20px;
+}
+
+.free-hubspot-crm-sx a {
+  font-weight: bold;
+}
+
+.free-hubspot-crm-dx {
+  width: 70%;
+  padding-left: 40px;
+  padding-top: 25px;
+}
+
+.free-hubspot-crm-dx h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.free-hubspot-crm-dx p {
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+.free-hubspot-crm-dx h4 {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.free-hubspot-crm-dx h4::after {
+  content: '';
+  position: absolute;
+  height: 5px;
+  margin-left: 40px;
+  border-bottom: 1px solid;
+  top: 7px;
+  width: 60%;
+}
+
+.free-hubspot-crm-dx span {
+  padding-right: 20px;
+  font-size: 14px;
 }
